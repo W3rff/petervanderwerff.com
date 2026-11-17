@@ -3,5 +3,8 @@ export default defineNuxtConfig({
   modules: ['@pinia/nuxt', '@nuxtjs/supabase'],
   compatibilityDate: '2025-07-15',
   css: ['~/assets/scss/main.scss'],
+  supabase: {
+    redirect: false,
+  },
   devtools: { enabled: true },
 });
