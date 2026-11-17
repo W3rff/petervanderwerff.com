@@ -1,0 +1,7 @@
+@use 'variables';
+
+@layer base {
+  body {
+    color: variables.$color-text;
+  }
+}
